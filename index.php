@@ -94,7 +94,17 @@ Dans les années 1980, l'entreprise a lancé la gamme d'ordinateurs personnels p
 
 L'entreprise s'est adaptée avec le temps et a produit par la suite une gamme d'ordinateurs personnels bon marché tournant sous MS-DOS, dont le premier était l'Amstrad PC-1512.
 
-Initialement montée pour distribuer du matériel électronique bon marché, Amstrad développe aujourd'hui des récepteurs satellite numériques pour BSkyB et Sky Italia. </p>
+Initialeme  <h1>Inscrivez-vous !</h1>
+<h2>Entrez les données demandées :</h2>
+<form name="inscription" method="POST" action="processInscription.php">
+    <label for = "nom">Entrez votre nom : </label><input type="text" name="nom"/> <br/>
+    <label for = "email">Entrez votre email : </label><input type="text" name="email" /><br/>
+    <label for = "mdp">Entrez votre mot de passe : </label><input type="text" name="mdp"/><br/>
+    <label for = "confmdp">Entrez a nouveau votre mot de passe : </label><input type="text" name="confmdp"/><br/>
+    <input type="submit" name="valider" value="OK"/>
+</form>
+</body>
+</html>nt montée pour distribuer du matériel électronique bon marché, Amstrad développe aujourd'hui des récepteurs satellite numériques pour BSkyB et Sky Italia. </p>
 </div>
 <div class="vectrex">
 <img src="./images/vectrex.jpeg">
