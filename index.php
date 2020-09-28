@@ -8,25 +8,26 @@
 
 <link rel="stylesheet" href="./style.css">
 
-    <img src="./images/banniere.jpg"class="img-fluid" alt="Responsive image">
+   
   </head>
   <body>
+  <div class ="container-fluid"><div class= "col-"><img src="./images/banniere.jpg" alt="Responsive image"></div></div>
  <div id="navbar">   
 <nav class="navbar navbar-expand-lg bg-primary">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mx-auto">
       <li class="nav-item">
-        <a class=" h1 nav-link text-danger"  href="#">Accueil </a>
+        <a class=" h1 nav-link text-danger"  href="index.php">Accueil </a>
       </li>
       <li class="nav-item">
         <a class="h1 nav-link text-danger" href="attractions.html">Attractions</a>
       </li>    
         
       <li class="nav-item">
-        <a class="h1 nav-link text-danger" href="#">Réservation</a>
+        <a class="h1 nav-link text-danger" href="reservation.php">Réservation</a>
       </li>
  	<li class="nav-item">
-        <a class="h1 nav-link text-danger" href="#">Contact</a>
+        <a class="h1 nav-link text-danger" href="inscription.php">Inscription</a>
       </li>
     </ul>
 </div>  
@@ -94,18 +95,10 @@ Dans les années 1980, l'entreprise a lancé la gamme d'ordinateurs personnels p
 
 L'entreprise s'est adaptée avec le temps et a produit par la suite une gamme d'ordinateurs personnels bon marché tournant sous MS-DOS, dont le premier était l'Amstrad PC-1512.
 
-Initialeme  <h1>Inscrivez-vous !</h1>
-<h2>Entrez les données demandées :</h2>
-<form name="inscription" method="POST" action="processInscription.php">
-    <label for = "nom">Entrez votre nom : </label><input type="text" name="nom"/> <br/>
-    <label for = "email">Entrez votre email : </label><input type="text" name="email" /><br/>
-    <label for = "mdp">Entrez votre mot de passe : </label><input type="text" name="mdp"/><br/>
-    <label for = "confmdp">Entrez a nouveau votre mot de passe : </label><input type="text" name="confmdp"/><br/>
-    <input type="submit" name="valider" value="OK"/>
-</form>
+Initialement montée pour distribuer du matériel électronique bon marché, Amstrad développe aujourd'hui des récepteurs satellite numériques pour BSkyB et Sky Italia. </p>
+</div>  
 </body>
-</html>nt montée pour distribuer du matériel électronique bon marché, Amstrad développe aujourd'hui des récepteurs satellite numériques pour BSkyB et Sky Italia. </p>
-</div>
+</html>
 <div class="vectrex">
 <img src="./images/vectrex.jpeg">
 <p class="description">Le Vectrex est une console de jeux vidéo 8 bits développée par Smith Engineering et distribuée par General Consumer Electric, et plus tard par MB (Milton Bradley Company) après le rachat de GCE. Il est sorti fin 1982, et a cessé d'être produit en 1984 après le krach du jeu vidéo de 1983.</p>

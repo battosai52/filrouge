@@ -31,15 +31,15 @@
 </div>  
  </nav>
 </div>
-<h1>Inscrivez-vous !</h1>
+<h1>réserver !</h1>
         <h2>Entrez les données demandées :</h2>
-        <form name="inscription" method="post" action="processInscription.php">
+        <form name="reservation" method="post" action="processRéservation.php">
             <label for = "nom">Entrez votre nom : </label><input type="text" name="nom"/> <br/>
             <label for = "prénom">Entrez votre prénom : </label><input type="text" name="prénom"/> <br/>
             <label for = "email">Entrez votre email : </label><input type="text" name="email" /><br/>
             <label for = "mdp">Entrez votre mot de passe : </label><input type="text" name="mdp"/><br/>
-            <label for = "confmdp">Entrez a nouveau votre mot de passe : </label><input type="text" name="confmdp"/><br/>
-            <input type="submit" name="valider" value="OK"/>
+            <label for = "date">Entrez la date de réservation : </label><input type="text" name="date"/><br/>
+                        <input type="submit" name="valider" value="OK"/>
         </form>
         <?php
         if(isset($erreur)) {
